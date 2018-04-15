@@ -80,15 +80,15 @@ class Song
   end
 
   def self.create_from_filename(mp3_data)
-    data=mp3_data.split(" - ")
+    #data=mp3_data.split(" - ")
 
-    artist_name=data[0]
-    name=data[1]#.split(".")[0]
+    #artist_name=data[0]
+    #name=data[1]#.split(".")[0]
 
-    new_song=self.new
-    new_song.artist_name=artist_name
-    new_song.name=name.split(".mp3").join
-    @@all<<new_song
+    #new_song=self.new
+    #new_song.artist_name=artist_name
+    #new_song.name=name.split(".mp3").join
+    #@@all<<new_song
 
 
     ######################################
