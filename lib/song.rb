@@ -32,7 +32,7 @@ class Song
     #new_song.save
     #self.create.name=name
     #self.new_by_name(name).save
-    save.self.new_by_name(name)
+    self.class.all<<self.new_by_name(name)
 
     #LONG VERSION
     #works but I could simplify by calling other methods?
