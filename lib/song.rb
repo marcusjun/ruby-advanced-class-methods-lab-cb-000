@@ -38,8 +38,9 @@ class Song
     #works but I could simplify by calling other methods?
     new_song=self.new
     new_song.name=name
-    new_song.save
+
     new_song
+    new_song.save
 
     #self.class.all<<new_song
   end
