@@ -35,10 +35,10 @@ class Song
 
     #LONG VERSION
     #works but I could simplify by calling other methods?
-    #new_song=self.new
-    #new_song.name=name
-    #new_song.save
-    #new_song
+    new_song=self.new
+    new_song.name=name
+    new_song.save
+    new_song
 
     #self.class.all<<new_song
   end
