@@ -29,13 +29,13 @@ class Song
   def self.create_by_name(name)
     #new_song=self.new_by_name(name)
     #new_song.save
-    #self.new_by_name(name)#.save
+    self.new_by_name(name).save
 
 
-    new_song=self.new
-    new_song.name=name
-    new_song.save
-    new_song
+    #new_song=self.new
+    #new_song.name=name
+    #new_song.save
+    #new_song
 
     #self.class.all<<new_song
   end
