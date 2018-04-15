@@ -34,7 +34,6 @@ class Song
 
     new_song=self.new
     new_song.name=name
-    #@@all<<new_song
     new_song.save
     new_song
 
