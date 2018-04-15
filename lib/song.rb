@@ -80,11 +80,12 @@ class Song
   end
 
   def self.create_from_filename(mp3_data)
-    #easier to call the new_from_filename method 
+    #easier to call the new_from_filename method
     #and then the save method
     self.new_from_filename(mp3_data).save
 
-    #LONG version of code
+    ######################################
+    #LONG VERSION OF CODE
     #data=mp3_data.split(" - ")
 
     #artist_name=data[0]
