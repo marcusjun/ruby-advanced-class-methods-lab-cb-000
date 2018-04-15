@@ -36,9 +36,12 @@ class Song
 
     #LONG VERSION
     #works but I could simplify by calling other methods?
+    #I think because of the order of actions:
+    #save new_song then return it
+    #can't use other methods.
     new_song=self.new
     new_song.name=name
-    new_song.save   
+    new_song.save
     new_song
 
 
