@@ -81,6 +81,10 @@ class Song
     new_song.artist_name=artist_name
     new_song.name=name.split(".mp3").join
     @@all<<new_song
+
+
+    ######################################
+    #CODE THAT DIDN'T WORK
     #new_song
     #rows = mp3_data.split("\n")
     #music=rows.collect do |row|
