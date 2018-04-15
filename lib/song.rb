@@ -13,8 +13,9 @@ class Song
   def self.create
     new_song=self.new
     new_song.save
-    #@@all<<new_song#self.new
     new_song
+
+    #@@all<<new_song#self.new
     #self.class.all<<self.new
   end
 
