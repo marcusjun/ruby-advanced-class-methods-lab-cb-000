@@ -38,10 +38,9 @@ class Song
     #works but I could simplify by calling other methods?
     new_song=self.new
     new_song.name=name
-    nenew_song.savew_song
-    
+    new_song.save   
     new_song
-    
+
 
     #self.class.all<<new_song
   end
