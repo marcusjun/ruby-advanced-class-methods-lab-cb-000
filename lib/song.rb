@@ -39,10 +39,10 @@ class Song
     #I think because of the order of actions:
     #save new_song then return it
     #can't use other methods.
-    new_song=self.new
-    new_song.name=name
-    new_song.save
-    new_song
+    new_song=self.new   # step #1
+    new_song.name=name  # step #2
+    new_song.save       # step #3
+    new_song            # step #4
 
 
     #self.class.all<<new_song
