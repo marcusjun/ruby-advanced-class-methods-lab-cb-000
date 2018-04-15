@@ -63,7 +63,7 @@ class Song
     #else
       #self.create_by_name(name)
     #end
-    
+
     #CODE THAT DIDN'T WORK
     #if self.all.include? {|music| music.name==name}
       #self.find_by_name(name)
@@ -83,11 +83,11 @@ class Song
     data=mp3_data.split(" - ")
 
     artist_name=data[0]
-    name=data[1]#.split(".")[0]
+    name=data[1].split(".mp3").join
 
     new_song=self.new
     new_song.artist_name=artist_name
-    new_song.name=name.split(".mp3").join
+    new_song.name=name#.split(".mp3").join
     new_song
   end
 
