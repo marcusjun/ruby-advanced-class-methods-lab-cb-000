@@ -54,13 +54,17 @@ class Song
   end
 
   def self.find_or_create_by_name(name)
+    #TERNARY SYNTAX
     (self.find_by_name(name) ? self.find_by_name(name) : self.create_by_name(name))
+
+    #IF THEN STATEMENTS
     #if self.find_by_name(name)
       #self.find_by_name(name)
     #else
       #self.create_by_name(name)
     #end
-
+    
+    #CODE THAT DIDN'T WORK
     #if self.all.include? {|music| music.name==name}
       #self.find_by_name(name)
       #music.find_by_name(name)
