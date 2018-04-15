@@ -27,12 +27,14 @@ class Song
   end
 
   def self.create_by_name(name)
+    #TRYING TO SIMPLIFY CODE BUT CAN'T GET IT TO WORK
     #new_song=self.new_by_name(name)
     #new_song.save
-    self.create.name=name
+    #self.create.name=name
     #self.new_by_name(name).save
 
-
+    #LONG VERSION
+    #works but I could simplify by calling other methods?
     #new_song=self.new
     #new_song.name=name
     #new_song.save
