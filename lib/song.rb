@@ -80,6 +80,7 @@ class Song
   end
 
   def self.create_from_filename(mp3_data)
+    self.new_from_filename(mp3_data).save
     #data=mp3_data.split(" - ")
 
     #artist_name=data[0]
